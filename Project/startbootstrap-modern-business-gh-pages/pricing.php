@@ -1,7 +1,7 @@
 <?php
 /*
  * @file: pricing.php
- * @author: Matthew Penny B00739069
+ * @author: Immigrify
  * @year: 2019
  * @description: CSCI 4193 (Fall 2019) This page gives pricing options for different services.
  */
