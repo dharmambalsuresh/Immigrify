@@ -79,23 +79,7 @@
             <p>Apply to study in Canada as an international student, extend your study permit and find out about working
                 while you study or after you graduate.</p>
             <br>
-            <!-- Categories Widget -->
-            <div class="card my-4 float-right">
-                <h5 class="card-header">Side Widget</h5>
-                <div class="card-body">
-                    <ul class="list-unstyled mb-0">
-                        <li>
-                            <a href="#">Search</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog Post Categories</a>
-                        </li>
-                        <li>
-                            <a href="#">TBD</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+
             <h3>Most Requested</h3>
             <ul>
                 <li><a href="">Find a school</a></li>
@@ -115,7 +99,8 @@
                         to Canada
                     </p></li>
                 <li><a href="">Get a study permit faster</a> <br>
-                    <p>If you live in China, India, Morocco, Pakistan, the Philippines, Senegal or Vietnam, you may be able to get your study permit faster
+                    <p>If you live in China, India, Morocco, Pakistan, the Philippines, Senegal or Vietnam, you may be
+                        able to get your study permit faster
                     </p></li>
                 <li><a href="">Extend your study permit</a> <br>
                     <p>How to renew your study permit or restore your status
@@ -144,21 +129,58 @@
 
             <h3>Prepare to study in Canada</h3>
             <ul>
-            <li><a href="">Prepare to study in Canada</a> <br>
-                <p>Where to study, how to apply to schools in Canada, and the documents you need
-                </p></li>
-            <li><a href="">Learn about student life in Canada</a> <br>
-                <p>Tips on living in Canada as an international student
-                </p></li>
-            <li><a href="">Scholarships for international students</a> <br>
-                <p>Awards for students, postdoctoral researchers, faculty and schools
-                </p></li>
+                <li><a href="">Prepare to study in Canada</a> <br>
+                    <p>Where to study, how to apply to schools in Canada, and the documents you need
+                    </p></li>
+                <li><a href="">Learn about student life in Canada</a> <br>
+                    <p>Tips on living in Canada as an international student
+                    </p></li>
+                <li><a href="">Scholarships for international students</a> <br>
+                    <p>Awards for students, postdoctoral researchers, faculty and schools
+                    </p></li>
             </ul>
+        </div>
+        <!-- Categories Widget -->
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+            <!-- Categories Widget -->
+            <div class="card my-4">
+                <h5 class="card-header">Current Status: Successful</h5>
+                <div class="card-body">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <strong> Labour Market Impact Assessment </strong><img src="image/png-check-3.png"
+                                                                                   class="img-fluid" alt="Check"
+                                                                                   width="10%">
+                        </li>
+                        <li>
+                            <strong> Identification </strong> <img src="image/png-check-3.png" class="img-fluid"
+                                                                   alt="Check" width="10%">
+                        </li>
+                        <li>
+                            <strong> Transcripts </strong> <img src="image/png-check-3.png" class="img-fluid"
+                                                                alt="Check" width="10%">
+                        </li>
+                        <li>
+                            <strong> Resume </strong> <img src="image/png-check-3.png" class="img-fluid" alt="Check"
+                                                           width="10%">
+                        </li>
+                    </ul>
+                    <p> All forms were uploaded successfully begin the automation now </p>
+                    <button type="button" onclick="process() " class="btn btn-success">Process</button>
+                    <p id="process"></p>
+
+                    <script>
+                        function process() {
+                            document.getElementById("process").innerHTML = "Processing now... "
+                        }
+                    </script>
+
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
-
 <!-- /.container -->
 
 <!-- Footer -->
@@ -172,6 +194,7 @@
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 
